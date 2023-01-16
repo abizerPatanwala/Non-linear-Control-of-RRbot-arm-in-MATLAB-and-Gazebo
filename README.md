@@ -5,4 +5,4 @@ In this project, varous controllers for the control of RRbot arm are designed in
 2. Feedback Linearization controller: For tracking a quintic polynomial trajectory generated between start and end joint positions.
 3. Robust controller: For tracking a quintic polynomial trajectory generated between start and end joint positions under uncertainities of the system.
 
-The initial and final consitions for trajectory generation are: &theta;<sub>1</sub>(t<sub>0</sub>) = 180<sup>&deg;</sup>, &theta;<sub>1</sub>(t<sub>f</sub>) = 0<sup>&deg;</sup>
+The initial and final consitions for trajectory generation are: &theta;<sub>1</sub>(t<sub>0</sub>) = 180<sup>&deg;</sup>, &theta;<sub>1</sub>(t<sub>f</sub>) = 0<sup>&deg;</sup>, &theta;<sub>2</sub>(t<sub>0</sub>) = 90<sup>&deg;</sup>, &theta;<sub>2</sub>(t<sub>f</sub>) = 0<sup>&deg;</sup>, 
