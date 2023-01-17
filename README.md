@@ -9,3 +9,6 @@ The initial and final conditions for trajectory generation are: &theta;<sub>1</s
 
 The output folder contains plots of the states(position and velocity) and torques of RRbot arm for each of the controller mentioned above. Plots from both MATLAB simulation and Gazebo simulation are presented. It is observed that for trajectory control Robust controller
 is the better choice, since it works in a practical situation where we never know system parameters with 100% certainity. The chattering issue, wherein the torque fluctuates at high frequency between large values, is solved by incorporating boundary layer. The plots, with boundary layer and without boundary layer are presented.  
+
+
+**This project is protected under copyright policy of the course and hence the code files were not uploaded**.
