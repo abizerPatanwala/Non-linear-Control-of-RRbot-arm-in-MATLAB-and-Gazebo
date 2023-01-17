@@ -1,6 +1,8 @@
 # Non-linear-Control-of-RRbot-arm-in-MATLAB-and-Gazebo
 ## Overview
-In this project, varous controllers for the control of RRbot arm are designed in MATLAB and simulated in Gazebo. This includes:
+[^1]: This project was done as part of a graduate course, RBE502 Controls from RBE department of WPI under the guidance of [Professor Siavash Farzan](https://github.com/sfarzan). 
+
+[^1]In this project, varous controllers for the control of RRbot arm are designed in MATLAB and simulated in Gazebo. This includes:
 1. **State-feedback controller**: For bringing back the RRbot arm back to its initial position when disturbed.
 2. **Feedback Linearization controller** (inverse dynamics controller): For tracking a quintic polynomial trajectory generated between start and end joint positions.
 3. **Robust controller** (inverse dynamics robust controller): For tracking a quintic polynomial trajectory generated between start and end joint positions under uncertainities of the system.
